@@ -1,0 +1,14 @@
+name: 'run-tfnotify'
+description: 'Run tfnotify'
+author: 'b4b4r07'
+# inputs:
+#   manifest:
+#     description: 'hoge'
+#     required: false
+#     default: '.github/tfnotify.yml'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  color: white
+  icon: package
